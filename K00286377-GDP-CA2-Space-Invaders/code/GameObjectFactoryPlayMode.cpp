@@ -2,6 +2,7 @@
 #include <iostream>
 #include "TransformComponent.h"
 #include "StandardGraphicsComponent.h"
+#include "StandardGraphicsRedComponent.h"
 #include "PlayerUpdateComponent.h"
 #include "RectColliderComponent.h"
 #include "InvaderUpdateComponent.h"
@@ -49,6 +50,17 @@ void GameObjectFactoryPlayMode::buildGameObject(
 
 			gameObject.addComponent(sgp);
 			sgp->initializeGraphics(
+				bp.getBitmapName(),
+				Vector2f(bp.getWidth(),
+					bp.getHeight()));
+		}
+		else if (*it == "Standard Graphics Red")
+		{
+			shared_ptr<StandardGraphicsRedComponent> sgrp =
+				make_shared<StandardGraphicsRedComponent>();
+
+			gameObject.addComponent(sgrp);
+			sgrp->initializeGraphics(
 				bp.getBitmapName(),
 				Vector2f(bp.getWidth(),
 					bp.getHeight()));

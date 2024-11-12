@@ -46,6 +46,7 @@
     <ClInclude Include="code\PlayerUpdateComponent.h" />
     <ClInclude Include="code\PlayModeObjectLoader.h" />
     <ClInclude Include="code\RectColliderComponent.h" />
+    <ClInclude Include="code\StandardGraphicsRedComponent.h" />
     <ClInclude Include="code\Screen.h" />
     <ClInclude Include="code\ScreenManager.h" />
     <ClInclude Include="code\ScreenManagerRemoteControl.h" />
@@ -85,6 +86,7 @@
     <ClCompile Include="code\PlayerUpdateComponent.cpp" />
     <ClCompile Include="code\PlayModeObjectLoader.cpp" />
     <ClCompile Include="code\RectColliderComponent.cpp" />
+    <ClCompile Include="code\StandardGraphicsRedComponent.cpp" />
     <ClCompile Include="code\Screen.cpp" />
     <ClCompile Include="code\ScreenManager.cpp" />
     <ClCompile Include="code\ScreenManagerRemoteControl.cpp" />

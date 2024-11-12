@@ -132,6 +132,9 @@
     <ClInclude Include="code\WorldState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="code\StandardGraphicsRedComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\BitmapStore.cpp">
@@ -243,6 +246,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="code\UpdateComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\StandardGraphicsRedComponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
